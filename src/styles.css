@@ -1,7 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-
-
-
 @font-face {
   font-family: "HelveticaNeueLT Arabic 55 Roman";
   src: url("./assets/fonts/HelveticaNeueLTArabic-Roman.woff2") format("woff2"),
@@ -14,6 +11,48 @@
 body {
   font-family: "HelveticaNeueLT Arabic 55 Roman";
 }
+footer h6,p{
+  color: white;
+}
+footer svg {
+  color: #009c96;
+  background: #706c6c;
+  padding: 5px;
+  border-radius: 7px;
+}
+footer ,section{
+background-color: #009c96;
+height: 335px;
+}
+a{
+  text-decoration: none;
 
+}
+.nav-link{
+  font-size: 23px;
+  line-height: 49px;
+  color: #484848;
+}
+.nav-link.active{
+color: #009c96 !important;}
+[type=search] {
+  width: 1154px !important;
+  height: 64px;
+  border: none;
+  font-size: 22px;
+  line-height: 33px;}
+  @media (min-width: 576px){
+.d-sm-block {
+  font-size: 22px;
+  line-height: 49px;
+  color: #000000;
+  font-family: "Helvetica Neue LT";
+  display: block!important;
+}}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav {
+  margin-right: 65px;
+  flex-direction: row;
+}}
 
 
